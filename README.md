@@ -170,7 +170,7 @@ This step includes:
 The goal of this step is to optimize a stock trading strategy using reinforcement learning. Key objectives include:
 
 1. **Policy Learning:**
-   - The RL model learns a policy that maps states (market conditions) to actions (trading decisions) to maximize expected return (cumulative reward).
+   - The Reinforcement Learning (RL) model learns a policy that maps states (market conditions) to actions (trading decisions) to maximize expected return (cumulative reward).
 
 2. **Portfolio Management Strategy:**
    - Develop an automated trading strategy that adapts to changing market conditions, making decisions on buying, holding, or selling assets.
@@ -184,10 +184,10 @@ Key steps in the code:
    - Load and prepare the financial dataset for training.
 
 2. **Environment Creation:**
-   - Set up a custom trading environment where the RL agent can interact with the market data.
+   - Set up a custom trading environment where the Reinforcement Learning (RL) agent can interact with the market data.
 
 3. **Model Training:**
-   - Train the PPO model using the environment and specified hyperparameters.
+   - Train the Proximal Policy Optimization (PPO) model using the environment and specified hyperparameters.
    - Adjust `total_timesteps` to control the training duration and effectiveness.
 
 4. **Model Evaluation:**
